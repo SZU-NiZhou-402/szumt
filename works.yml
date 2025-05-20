@@ -1,0 +1,26 @@
+毛泽东选集:
+    type: Book
+    title: 毛泽东选集 第1卷
+    author: 毛泽东
+    volume: 2
+    date: 1991
+
+
+马克思恩格斯选集:
+    type: Book
+    title: 马克思恩格斯选集
+    author: 中共中央马克思恩格斯列宁斯大林著作编译局
+    date: 2012
+
+列宁选集:
+    type: Book
+    title: 列宁选集
+    author: 列宁
+    date: 2012
+
+马克思主义基本原理概论:
+    type: Book
+    title: 马克思主义基本原理概论
+    author: 《马克思主义基本原理》编写组
+    date: 2021
+    
