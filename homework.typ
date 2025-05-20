@@ -4,9 +4,10 @@
 #import "@preview/cuti:0.2.1": show-cn-fakebold
 
 #show: show-cn-fakebold
-#set text(font: ("Times New Roman", "SimSun"), size: zh(-4)) // 小四号宋体（中文），Times New Roman（英文）
 
-#set par(first-line-indent: (amount: 2em, all: true), leading: 20pt) // 首行缩进2em，1.5倍行距
+#let text_size = zh(-4)
+#set text(font: ("Times New Roman", "SimSun"), size: text_size) // 小四号宋体（中文），Times New Roman（英文）
+#set par(first-line-indent: (amount: 2em, all: true), leading: 20pt - (text_size / 2)) // 首行缩进2em，1.5倍行距
 
 #show heading: set block(above: 2em, below: 2em)
 #show heading: set par(leading: 1em)
